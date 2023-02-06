@@ -1,0 +1,18 @@
+#backgroundColor {
+    background-color: bisque;
+}
+
+#backgroundImage {
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1675571996899-f2a49e57c627?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#borderSolid {
+    border: 3px solid rebeccapurple;
+}
+#borderDashed {
+    border: 3px dashed goldenrod;
+}
