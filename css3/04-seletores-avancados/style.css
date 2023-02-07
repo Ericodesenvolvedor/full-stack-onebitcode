@@ -1,0 +1,14 @@
+/* Descendant combinator */
+ul:nth-of-type(1) li {
+    color: red;
+} 
+
+/* Adjacent sibling combinator */
+ul:nth-of-type(2)  li:first-of-type + li {
+    color: red;
+}
+
+/* Child combinator */
+ul:nth-of-type(3) li:first-of-type > a {
+    color: red;
+}

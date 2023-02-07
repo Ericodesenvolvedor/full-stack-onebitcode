@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Avançados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seletores</h1>
+
+
+
+    <h2>Descendant combinator [" "]</h2>
+    <p>combina dois seletores de modo que os elementos correspondentes ao segundo seletor sejam selecionados se tiverem um elemento ancestral</p>
+    <ul>
+        <li>Um</li>
+        <li>Dois!</li>
+        <li>Três</li>
+    </ul>
+
+    <h2>Adjacent sibling combinator [+]</h2>
+    <p>Esse seletor vai pegar o elemento adjascente do elemento passado, no caso, pegou o primeiro &lt;li&gt; e depois pegou o seu elemento adjascenter que séria outro &lt;li&gt;</p>
+    <ul>
+        <li>Um</li>
+        <li>Dois!</li>
+        <li>Três</li>
+    </ul>
+
+    <h2>Child combinator [>]</h2>
+    <p>Ele corresponde apenas aos elementos correspondidos pelo segundo seletor que são filhos diretos dos elementos correspondidos pelo primeiro.</p>
+    <ul>
+        <li>
+            Um
+            <a href="#">More</a>
+        </li>
+        <li>Dois!
+            <a href="#">More</a>
+        </li>
+        <li>Três
+            <a href="#">More</a>
+        </li>
+    </ul>
+</body>
+</html>
