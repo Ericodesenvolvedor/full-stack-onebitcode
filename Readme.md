@@ -51,6 +51,7 @@ Repositório Licenciado ⚖
 ### 📦 Repositório
 
 1. html5 - [Cique para ver](https://github.com/Ericodesenvolvedor/full-stack-onebitcode/tree/master/html5)
+2. css3 - [Cique para ver](https://github.com/Ericodesenvolvedor/full-stack-onebitcode/tree/master/css3)
 
 ---
 
