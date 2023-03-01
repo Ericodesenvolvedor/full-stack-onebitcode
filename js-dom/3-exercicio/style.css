@@ -1,0 +1,61 @@
+ /* Estilo dos quadrados do tabuleiro */
+ .square {
+     width: 100px;
+     height: 100px;
+     background-color: #fff;
+     border: 1px solid #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 48px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ /* Estilo dos quadrados clicados */
+ .square.clicked {
+     cursor: not-allowed;
+ }
+
+ /* Estilo dos quadrados quando hover */
+ .square:hover {
+     background-color: #eee;
+ }
+
+ /* Estilo do tabuleiro */
+ #board {
+     width: 320px;
+     height: 320px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(3, 1fr);
+     margin: 0 auto;
+     margin-top: 50px;
+     border: 1px solid #000;
+ }
+
+ /* Estilo do texto "Jogador X" e "Jogador O" */
+ .player {
+     font-size: 24px;
+     font-weight: bold;
+ }
+
+ /* Estilo da div que mostra o ganhador */
+ #winner {
+     font-size: 36px;
+     font-weight: bold;
+     margin-top: 20px;
+     text-align: center;
+     display: none;
+ }
+
+ /* Estilo do header */
+ header {
+     text-align: center;
+     margin-top: 30px;
+ }
+
+ /* Estilo do h1 no header */
+ h1 {
+     text-transform: capitalize;
+ }
